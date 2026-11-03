@@ -1,0 +1,13 @@
+project_id = "content-platform"
+
+[db]
+major_version = 15
+
+[functions.articles]
+verify_jwt = true
+
+[functions.invite-member]
+verify_jwt = true
+
+[functions.accept-invitation]
+verify_jwt = true
